@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Generator</title>
+  <style>
+    .main-gen {
+      text-align: center;
+      margin-top: 75px;
+    }
+
+    .output {
+      border: 1px solid lightblue;
+      margin-top: 75px;
+      font-family: cursive;
+      font-size: 30px;
+      background-color: beige;
+      color:darkorchid;
+      font-weight: bolder;
+    }
+
+    body {
+      background-color: blanchedalmond;
+    }
+
+    .search-btn {
+      cursor: pointer;
+      background-color: cornflowerblue;
+      border: 4px solid teal;
+      border-radius: 9px;
+    }
+  </style>
+</head>
+<body>
+  <div class="main-gen">
+    <div class="search-input"><input type="text" placeholder="Enter Word for Quote!">
+      <button class="search-btn" type="button">Quote!</button>
+    </div>
+    <div class="output"></div>
+  </div>
+</body>
+<script src="app.js"></script>
+</html>
